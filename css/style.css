@@ -121,3 +121,7 @@ header {
 .menu li + li {
   padding-left: 13px;
 }
+
+#modal {
+  display: none;
+}
