@@ -50,7 +50,7 @@ header {
   left: 21px;
   font-family: 'icomoon';
   content: "\f0b1";
-  color: 1b1b1b;
+  color: #1b1b1b;
 }
 
 .header__contacts:after {
@@ -442,8 +442,6 @@ min-height: 460px;
 .form__box-inner .jq-selectbox__select {
   height: 40px;
   border: 1px solid #e6e6e6;
-  /* background: transparent;
-  border-radius: 0; */
   padding-left: 17px;
 }
 
@@ -703,7 +701,13 @@ min-height: 460px;
 
 .footer__map {
   padding-top: 10px;
+  max-width: 630px;
+  width: 100%;
 } 
+
+.footer__map iframe {
+  width: 100%;
+}
 
 .footer__title {
   font-family: 'Roboto', sans-serif;
@@ -770,4 +774,33 @@ min-height: 460px;
   color: #fff;
   text-align: center;
   padding: 10px 0;
+}
+
+/* Модальное окно */
+
+#modal {
+  width: 300px;
+}
+
+#modal input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+  height: 40px;
+  border: 1px solid #e6e6e6;
+  padding: 0px 15px;
+}
+
+#modal input[type="submit"] {
+  background-color: #ffc222;
+  border: none;
+}
+/* --------- */
+
+.header__btn-menu {
+  display: none;
+  font-size: 28px;
 }
